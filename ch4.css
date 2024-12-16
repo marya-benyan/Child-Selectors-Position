@@ -1,0 +1,29 @@
+div {
+    border: 2px solid;
+    height: 30px;
+    width: 60px;
+    display: inline-block;
+    background-color: aliceblue;
+  }
+ 
+  /* div:nth-of-type(n+6) 
+        {
+         background-color: orange;
+        }                      */
+ 
+  /* div:nth-of-type(-n+5) 
+        {
+         background-color: orange;
+        /* }   
+ 
+  /* div:nth-of-type(4+4)  
+        {
+         background-color: orange;
+        }      */
+  /* div:nth-of-type(n+7) 
+        {
+         background-color: orange;
+        }                    */
+  div:nth-last-child(3) {
+    background-color: orange;
+  }
